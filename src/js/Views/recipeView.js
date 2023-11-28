@@ -5,7 +5,7 @@ import View from "./View.js";
 import icons from "url:../../img/icons.svg";
 
 //Fractional npm package
-import { Fraction } from "fractional";
+// import { Fraction } from "fractional";
 
 
 
