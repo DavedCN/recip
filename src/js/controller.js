@@ -12,8 +12,7 @@ import SearchView from "./Views/searchView.js";
 import ResultsView from "./Views/resultsView.js";
 import PaginationView from "./Views/paginationView.js";
 import BookmarksView from "./Views/bookmarksView.js";
-import AddRecipeView from "./Views/addrecipeView.js";
-import addrecipeView from "./Views/addrecipeView.js";
+import AddRecipeView from "./Views/addRecipeView.js";
 import { async } from "regenerator-runtime";
 import { MODAL_CLOSE_SEC } from "../config";
 
