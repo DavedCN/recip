@@ -166,4 +166,3 @@ export const uploadRecipe = async function (newRecipe) {
     throw err;
   }
 };
-const yoyonigga = function () {};
