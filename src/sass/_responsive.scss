@@ -1,0 +1,78 @@
+@media only screen and (max-width: 600px) {
+  .recipe {
+    display: none;
+    width: 100vw;
+  }
+
+  .hiddenRecipe {
+    -webkit-transform: translateX(100%);
+    -moz-transform: translateX(10%);
+    transform: translateX(100%);
+    transition-property: transform;
+    transition-duration: 0.5s;
+  }
+
+  .nav__btn svg {
+    margin-right: 0.2rem;
+  }
+
+  .results {
+    width: 100vw;
+  }
+
+  .header__logo {
+    margin-left: 0.8rem;
+    margin-right: 0.75rem;
+  }
+
+  .search {
+    width: 42.25%;
+  }
+
+  .slideView {
+    -webkit-transform: translateX(-100%);
+    -moz-transform: translateX(-100%);
+    transform: translateX(-250%);
+    transition-property: transform;
+    transition-duration: 0.5s;
+  }
+
+  .header {
+    display: flex;
+  }
+
+  .add-recipe-window {
+    width: auto;
+  }
+
+  .upload {
+    display: flex;
+    flex-direction: column;
+
+    &__column {
+      flex: 1;
+    }
+  }
+
+  .nav {
+    &__item {
+      margin-top: 8px;
+    }
+  }
+
+  .recipe__ingredient-list {
+    display: inline;
+    line-height: 3.5rem;
+  }
+
+  .recipe__details
+  {
+        padding: 5.5rem 2rem 3rem;
+  }
+
+  .recipe__info:not(:last-child) {
+    margin-right: 2.1rem; 
+    font-size: 1.5rem;
+}
+  
+}
