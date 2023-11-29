@@ -1,9 +1,11 @@
 //icons
 import icons from "url:../../img/icons.svg";
 
+//icons
+import icons from "url:../../img/icons.svg";
+
 export default class View {
   _data;
- 
 
   /**
    * Render the received object to the DOM
@@ -104,6 +106,4 @@ export default class View {
     this._clear();
     this._parentEl.insertAdjacentHTML("afterbegin", markup);
   }
-
-  
 }

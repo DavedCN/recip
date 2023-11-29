@@ -6,7 +6,7 @@
   justify-content: space-between;
 
   &__logo {
-    margin-left: 4rem;
+    margin-left: 5rem;
     height: 4.6rem;
     display: block;
   }
@@ -147,19 +147,3 @@
   }
 }
 
-@media (max-width: 677px) {
-  .search {
-    width: 45%;
-    height: 45%;
-  }
-  .search__btn {
-    width: 40%;
-    margin-left: -40px;
-    display: none;
-  }
-
-  .nav__list {
-    display: flex;
-    flex-direction: column;
-  }
-}

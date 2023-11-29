@@ -43,6 +43,7 @@
 
   .add-recipe-window {
     width: auto;
+    height: 86vh;
   }
 
   .upload {
@@ -72,5 +73,20 @@
   .recipe__info:not(:last-child) {
     margin-right: 2rem;
     font-size: 1.2rem;
+  }
+
+  .search {
+    width: 45%;
+    height: 45%;
+  }
+  .search__btn {
+    width: 40%;
+    margin-left: -40px;
+    display: none;
+  }
+
+  .nav__list {
+    display: flex;
+    flex-direction: column;
   }
 }
