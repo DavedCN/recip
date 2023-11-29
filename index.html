@@ -20,7 +20,11 @@
   <body>
     <div class="container">
       <header class="header">
-        <img src="src/img/logo.png" alt="Logo" class="header__logo" />
+        <picture>
+          <source media="(max-width: 600px)" srcset="src/img/favicon.png" />
+          <source media="(min-width: 601px)" srcset="src/img/logo.png" />
+          <img src="src/img/logo.png" alt="Logo" class="header__logo" />
+        </picture>
         <form class="search">
           <input
             type="text"
