@@ -6,18 +6,28 @@ class SearchView {
 
   getQuery() {
     const query = this.#parentEl.querySelector(".search__field ").value;
-    this.#clearInput();
+
     return query;
   }
 
-  #clearInput() {
-    this.#parentEl.querySelector(".search__field ").value = "";
+  clearInput() {
+    this.#parentEl.querySelector(".search__field").value = "";
   }
 
   addHandlerSearch(handler) {
+    const self = this; // Store class instance reference
+
+    if (window.matchMedia("(max-width: 600px)").matches) {
+      this.#parentEl.addEventListener("input", function (e) {
+        e.preventDefault();
+        handler();
+      });
+    }
+
     this.#parentEl.addEventListener("submit", function (e) {
       e.preventDefault();
       handler();
+      self.clearInput(); // Call clearInput() using the stored reference
     });
   }
 

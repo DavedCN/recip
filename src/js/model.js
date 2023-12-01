@@ -58,14 +58,9 @@ export const loadSearchResults = async function (query) {
         ...(rec.key && { key: rec.key }),
       };
     });
-    console.log(state.search.results);
 
     state.search.page = 1;
-
-    console.log(state.search.results);
   } catch (err) {
-    console.error(err);
-
     throw err;
   }
 };
@@ -130,7 +125,7 @@ const clearBookmarks = function () {
 //clearBookmarks();
 
 export const uploadRecipe = async function (newRecipe) {
-  console.log(Object.entries(newRecipe));
+
 
   try {
     const ingredients = Object.entries(newRecipe)
