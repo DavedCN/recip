@@ -43,7 +43,7 @@ class RecipeView extends View {
     });
   }
   _generateMarkup() {
-    console.log(this._data);
+   
     return ` <figure class="recipe__fig">
   <img src="${this._data.image}" alt="${
       this._data.title
@@ -93,7 +93,7 @@ class RecipeView extends View {
   <div class="recipe__user-generated ${this._data.key ? "" : "hidden"}">
     <svg>
 
-      <use href="${icons}.#icon-user"></use>  
+      <use href="${icons}#icon-user"></use>  
      
     </svg>
   </div>
