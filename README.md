@@ -1,6 +1,10 @@
 # Forkify Project
 
-Recipe Application with custom recipe uploads.
+Recipe Application built with Vanilla Javascript with custom recipe uploads feature.
+
+
+![image](https://github.com/DavedCN/recip/assets/108531027/f4d5b3fa-fec7-4dcb-a431-02b4273e22ad)
+
 
 ## Live at the link below
 
